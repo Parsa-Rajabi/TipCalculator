@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <script type="text/javascript" src="tipCalc.js"></script>
+    <title>Tip Calculator</title>
+</head>
+<body>
+<h1> Tip Calculator</h1>
+<form>
+    <div class="form-group">
+        <label for="bill">Bill Amount</label>
+        <input type="number" class="form-control" id="bill" placeholder="Bill Amount $">
+    </div>
+    <div class="form-group">
+        <label for="tip">Tip Percentage</label>
+        <input type="number" class="form-control" id="tip" placeholder="Tip %">
+    </div>
+    <button type="submit" class="btn btn-default" onclick="tipCalculator()" value="">Calculate</button>
+</form>
+</body>
+</html>
