@@ -1,5 +1,4 @@
 const tripCalc = require('./tipCalc');
-// const addNumbers = require('./tipCalc'o);
 
 test('Submit button exits', () => {
     expect(document.getElementsByClassName('btn btn-default')).toBeTruthy();
